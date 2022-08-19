@@ -1,0 +1,16 @@
+.dashboard {
+    display: grid !important;
+    grid-template-columns: 280px 1fr;
+    // height: 100vh;
+
+    .side {
+        // flex: 1;
+        // width: 280px;
+
+    }
+    .main {
+        padding: 60px 0;
+        // flex: 1;
+        // background-color: #00ff00;
+    }
+}

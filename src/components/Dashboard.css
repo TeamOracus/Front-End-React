@@ -1,0 +1,7 @@
+.dashboard {
+  display: grid !important;
+  grid-template-columns: 280px 1fr;
+}
+.dashboard .main {
+  padding: 60px 0;
+}/*# sourceMappingURL=Dashboard.css.map */

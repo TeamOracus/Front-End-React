@@ -1,0 +1,59 @@
+.sidebar {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  padding: 50px 20px;
+  position: fixed;
+  height: 100vh;
+  background: #0A0D51;
+  overflow: auto;
+}
+.sidebar * {
+  transition: all 0.2s ease-in-out;
+}
+.sidebar::-webkit-scrollbar-track {
+  background-color: #252ba0;
+}
+.sidebar::-webkit-scrollbar {
+  width: 12px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #10156e;
+}
+.sidebar img.logo {
+  width: 100px;
+}
+.sidebar h1 {
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #B9C0FE;
+  margin-bottom: 30px;
+}
+.sidebar .navCards {
+  display: grid;
+  gap: 6px;
+}
+.sidebar .navCards .navCard {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 0.3fr 0.7fr;
+  align-content: center;
+  text-align: left;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.sidebar .navCards .navCard span {
+  justify-self: start;
+  font-weight: 400;
+}
+.sidebar .navCards .navCard:hover {
+  background-color: rgb(206, 205, 255);
+}
+.sidebar .navCards .navCard:hover .icon {
+  color: #0A0D51 !important;
+}/*# sourceMappingURL=Sidebar.css.map */

@@ -1,0 +1,24 @@
+form.search {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+}
+form.search input[type=search] {
+  background: rgba(186, 193, 255, 0.2196078431);
+  height: 46px;
+  width: 680px;
+  border-radius: 15px;
+  padding: 0 30px;
+}
+form.search button {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  cursor: pointer;
+  color: #C5C7CD;
+}
+form.search button:hover {
+  color: #10156e;
+}/*# sourceMappingURL=SearchBar.css.map */

@@ -1,0 +1,26 @@
+
+form.search {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    
+    input[type="search"] {
+        background: #BAC1FF38;
+        height: 46px;
+        width: 680px;
+        border-radius: 15px;
+        padding: 0 30px;
+    }
+    button {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        cursor: pointer;
+        color: #C5C7CD;
+        &:hover {
+            color: #10156e;
+        }
+    }
+}
